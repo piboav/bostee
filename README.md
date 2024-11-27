@@ -1,3 +1,8 @@
+
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 200%; padding-top: 0; height: 0;"><iframe title="Witchcraft vertical Infographic" frameborder="0" width="800" height="1600" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/6746ccd16318d281726c1bd6" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+
+
+
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100vw 100vh" preserveAspectRatio="xMidYMid slice" style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1;">
   <rect width="100%" height="100%" fill="#1A1A2E"/>
   
