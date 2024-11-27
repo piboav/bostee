@@ -1,32 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
-  <!-- Dark background with subtle texture -->
-  <rect width="1920" height="1080" fill="#1A1A2E"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100vw 100vh" preserveAspectRatio="xMidYMid slice" style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1;">
+  <rect width="100%" height="100%" fill="#1A1A2E"/>
   
-  <!-- Distant mountain silhouettes -->
-  <path d="M0 540 L400 300 L800 540 L1200 250 L1600 540 L1920 400 V1080 H0 Z" fill="#14213D" opacity="0.7"/>
+  <path d="M0 50% L40% 20% L80% 50% L120% 10% L160% 50% L200% 30% V100% H0 Z" fill="#14213D" opacity="0.7"/>
   
-  <!-- Closer mountain layers with different depths -->
-  <path d="M0 640 L300 450 L600 640 L900 350 L1200 640 L1500 300 L1920 640 V1080 H0 Z" fill="#283149" opacity="0.8"/>
+  <path d="M0 60% L30% 40% L60% 60% L90% 30% L120% 60% L150% 20% L200% 60% V100% H0 Z" fill="#283149" opacity="0.8"/>
   
-  <!-- Mystical rune-like patterns -->
   <g opacity="0.3">
-    <path d="M100 200 Q150 250, 200 200 Q250 150, 300 200" stroke="#4A4E69" stroke-width="2" fill="none"/>
-    <path d="M1600 100 Q1650 150, 1700 100 Q1750 50, 1800 100" stroke="#4A4E69" stroke-width="2" fill="none"/>
-    <path d="M500 50 Q550 100, 600 50 Q650 0, 700 50" stroke="#4A4E69" stroke-width="2" fill="none"/>
+    <path d="M10% 20% Q15% 25%, 20% 20% Q25% 15%, 30% 20%" stroke="#4A4E69" stroke-width="2" fill="none"/>
+    <path d="M160% 10% Q165% 15%, 170% 10% Q175% 5%, 180% 10%" stroke="#4A4E69" stroke-width="2" fill="none"/>
   </g>
   
-  <!-- Faint magical sparkles -->
   <g fill="#FFD700" opacity="0.5">
-    <circle cx="250" cy="150" r="3"/>
-    <circle cx="750" cy="300" r="2"/>
-    <circle cx="1300" cy="200" r="4"/>
-    <circle cx="1700" cy="350" r="3"/>
+    <circle cx="25%" cy="15%" r="3"/>
+    <circle cx="75%" cy="30%" r="2"/>
+    <circle cx="130%" cy="20%" r="4"/>
   </g>
   
-  <!-- Subtle vignette effect -->
   <radialGradient id="vignette" cx="50%" cy="50%" r="50%">
     <stop offset="70%" stop-color="#000" stop-opacity="0"/>
     <stop offset="100%" stop-color="#000" stop-opacity="0.3"/>
   </radialGradient>
-  <rect width="1920" height="1080" fill="url(#vignette)"/>
+  <rect width="100%" height="100%" fill="url(#vignette)"/>
 </svg>
